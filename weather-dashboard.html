@@ -11,18 +11,33 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 
   <body>
     
     <!--WEATHER FORCAST HEADER-->
-    <div class="container" id="header">
-        <div class="row">
-          <div class="col-sm-12">WEATHER FORCAST</div>
+    <div class="jumbotron jumbotron-fluid" id="header">
+        <div class="container">
+          <h1 class="display-4" id="header-text">WEATHER FORCAST</h1>
+        
         </div>
-    </div>
+      </div>
+
+   <!--CITY SEARCH BAR-->
+   <div class="container">
+       <div class="row">
+       <div class="col-sm-5">
+   <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="City" aria-label="City" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+  </div>
+</div>
+</div>
+</div>
 
     <!-- LOCAL FORCAST CARD TO LEFT OF SCREEN-->
-    <div class="card" style="width: 18rem">
+    <div class="card" style="width: 30rem">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>

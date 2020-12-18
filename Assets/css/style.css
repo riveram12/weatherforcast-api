@@ -13,14 +13,24 @@ body {
   background-color: #cccccc;
 }
 
+#header-text {
+  color: #ffffff;
+  font-family: "Viga", sans-serif;
+  font-size: 22pt;
+  font: outline;
+}
+
 #header {
   margin: auto;
   padding: 20px;
   background-color: #0677ac;
+  opacity: 90%;
+  column-span: all;
 }
 
 .card {
-  margin-left: 30px;
+  margin-left: 150px;
   margin-top: 20px;
+  opacity: 80%;
   border: solid;
 }
