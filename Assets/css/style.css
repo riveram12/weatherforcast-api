@@ -23,14 +23,21 @@ body {
 #header {
   margin: auto;
   padding: 20px;
-  background-color: #0677ac;
-  opacity: 90%;
+  background-color: rgb(4, 51, 105, 0.9);
   column-span: all;
+}
+
+#five-city {
+  background-color: #fff5d3;
+}
+
+#city-name {
+  color: #a52323;
 }
 
 .card {
   margin-left: 150px;
   margin-top: 20px;
-  opacity: 80%;
   border: solid;
+  background-color: rgb(209, 209, 209, 0.9);
 }
