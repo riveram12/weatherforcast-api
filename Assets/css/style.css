@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("../images/weather.jpeg");
+  background-image: url("../images/weather2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,14 @@ body {
   background-color: #cccccc;
 }
 
+#header {
+  margin: auto;
+  padding: 20px;
+  background-color: #0677ac;
+}
+
 .card {
   margin-left: 30px;
+  margin-top: 20px;
   border: solid;
 }
