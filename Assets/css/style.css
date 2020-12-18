@@ -6,4 +6,14 @@
 
 body {
   background-image: url("../images/weather.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: #cccccc;
+}
+
+.card {
+  margin-left: 30px;
+  border: solid;
 }
