@@ -20,8 +20,17 @@ function find(c){
     }
     return 1;
 }
+
+// var APIKey = "166a433c57516f51dfab1f7edaed8413";
+
+// // Here we are building the URL we need to query the database
+// var queryURL =
+//   "https://api.openweathermap.org/data/2.5/weather?" +
+//   "q=Bujumbura,Burundi&appid=" +
+//   APIKey;
+
 //Set up the API key
-var APIKey="a0aca8a89948154a4182dcecc780b513";
+var APIKey="166a433c57516f51dfab1f7edaed8413";
 // Display the curent and future weather to the user after grabing the city form the input text box.
 function displayWeather(event){
     event.preventDefault();
